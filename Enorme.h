@@ -11,14 +11,12 @@
 			void sumar();
 			void restar();
 			long int obtenerValor( const int  );
-			
-			
+
+
 		private:
-			long int elementos[ 40 ];	
-		
+			long int elementos[ 40 ];
+
 	};
 
 #endif
-
-	
 

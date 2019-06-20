@@ -10,7 +10,7 @@ using namespace std;
 		for( int i = 0; i < 40; i++ )
 			elementos[ i ] = 0;
 	}
-	
+
 	/*
 		Utilizar el log10 para encontrar el largo del número
 	*/
@@ -18,9 +18,9 @@ using namespace std;
 	{
 		int eval = static_cast<int>( log10(a) ) + 1;
 		elementos[ pos ] = ( eval <= 40 ) ? a : 0;
-		
+
 	}
-	
+
 	void Enorme::imprimir()
 	{
 		for( int i = 0; i < 40; i++ )
@@ -30,10 +30,10 @@ using namespace std;
 				cout<<"\nelementos[ " << i << " ] = " << elementos[ i ];
 			}
 		}
-		
-		
+
+
 	}
-	
+
 	void Enorme::sumar(  )
 	{
 		int a , b;
@@ -43,11 +43,11 @@ using namespace std;
 		cin>> a;
 		cout<<"\nDigite la posicion del segundo elemento a sumar: ";
 		cin>> b;
-		
+
 		cout<<"La suma de los dos elementos es: " << ( elementos[ a ] + elementos[ b ] ) << endl;
-		
+
 	}
-	
+
 	void Enorme::restar(  )
 	{
 		int a , b;
@@ -57,13 +57,12 @@ using namespace std;
 		cin>> a;
 		cout<<"\nDigite la posicion del segundo elemento a restar: ";
 		cin>> b;
-		
+
 		cout<<"La resta de los dos elementos es: " << ( elementos[ a ] - elementos[ b ] ) << endl;
-		
+
 	}
-	
+
 	long int Enorme::obtenerValor( const int a )
 	{
 		return elementos[ a ];
 	}
-	

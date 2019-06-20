@@ -16,6 +16,8 @@ double dividir( const int  , const int  );
 
 	int main()
 	{
+		int v2;
+		//v2
 		int seleccion;
 		Enorme objeto;
 		
@@ -49,7 +51,7 @@ double dividir( const int  , const int  );
 		int val2 = objeto2.obtenerValor( 22 );
 		
 		
-		
+		cout<< val1 + val2;
 		
 		
 		
@@ -99,9 +101,4 @@ double dividir( const int  , const int  );
 	{
 		return ( b != 0 ) ? (a / b) : 0;
 	}
-	
-	
-	
-	
-	
 	

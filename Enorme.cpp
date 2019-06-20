@@ -67,15 +67,3 @@ using namespace std;
 		return elementos[ a ];
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
